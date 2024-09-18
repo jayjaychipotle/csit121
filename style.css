@@ -1,0 +1,19 @@
+/* Set the background color and font for the entire page */
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif; /* Default font */
+    text-align: center; /* Center the text */
+}
+
+/* Style for the main heading (h1) */
+h1 {
+    color: #403b3b; /* Dark grey text */
+    font-size: 28px;
+}
+
+/* Style for paragraphs (p) */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666; /* Medium grey text */
+}
