@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>101</id>
+        <firstname>John</firstname>
+        <lastname>Doe</lastname>
+        <title>Manager</title>
+        <division>Sales</division>
+        <building>Main</building>
+        <room>101A</room>
+    </employee>
+    <employee>
+        <id>102</id>
+        <firstname>Jane</firstname>
+        <lastname>Smith</lastname>
+        <title>Engineer</title>
+        <division>Tech</division>
+        <building>West</building>
+        <room>102B</room>
+    </employee>
+    <employee>
+        <id>103</id>
+        <firstname>Emily</firstname>
+        <lastname>Johnson</lastname>
+        <title>Designer</title>
+        <division>Marketing</division>
+        <building>East</building>
+        <room>103C</room>
+    </employee>
+    <employee>
+        <id>104</id>
+        <firstname>Michael</firstname>
+        <lastname>Brown</lastname>
+        <title>Analyst</title>
+        <division>Finance</division>
+        <building>Main</building>
+        <room>104D</room>
+    </employee>
+    <employee>
+        <id>105</id>
+        <firstname>Jessica</firstname>
+        <lastname>Taylor</lastname>
+        <title>Support</title>
+        <division>Customer Service</division>
+        <building>South</building>
+        <room>105E</room>
+    </employee>
+    <employee>
+        <id>106</id>
+        <firstname>David</firstname>
+        <lastname>Wilson</lastname>
+        <title>Developer</title>
+        <division>IT</division>
+        <building>North</building>
+        <room>106F</room>
+    </employee>
+</employees>
