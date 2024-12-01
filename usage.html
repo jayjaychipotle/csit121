@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebRTC: Real-Time Communication</title>
+    <title>How WebRTC is Used</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,10 +19,16 @@
         </nav>
     </header>
     <main>
-        <h2>What is WebRTC?</h2>
-        <p>WebRTC (Web Real-Time Communication) is an open standard that enables real-time audio, video, and data communication directly in web browsers without requiring plugins or additional software.</p>
-        <p>It provides APIs that developers can use to build peer-to-peer applications for video calling, file sharing, and other collaborative services.</p>
-        <p>WebRTC is supported by all major browsers and is widely used in applications like Google Meet, Zoom, and Discord.</p>
+        <h2>How is WebRTC Used?</h2>
+        <p>WebRTC powers real-time communication features in popular apps like Google Meet, Zoom, and Microsoft Teams.</p>
+        <p>Developers use WebRTC APIs for peer-to-peer connections, enabling features like video calling, file sharing, and collaborative document editing.</p>
+        <p>Below is a simple example of how WebRTC can establish a connection:</p>
+        <pre>
+const peerConnection = new RTCPeerConnection();
+peerConnection.ontrack = (event) => {
+    console.log("Stream received:", event.streams[0]);
+};
+        </pre>
     </main>
     <footer>
         <p>&copy; 2024 WebRTC Lab</p>
