@@ -7,17 +7,21 @@
 
 /* Typography */
 body {
-    font-family: "Lato", sans-serif;
-    background-color: black; /* Background remains black */
-    color: white; /* Text color remains white */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     line-height: 1.6;
     padding: 20px;
+    background-image: url('images/background.jpg'); /* Optional: add a background image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 /* Header Styles */
 header {
-    background-color: black; /* Background remains black */
-    color: white; /* Text color remains white */
+    background-color: #333;
+    color: white;
     padding: 10px 0;
     text-align: center;
 }
@@ -26,105 +30,10 @@ header h1 {
     margin-bottom: 15px;
 }
 
-/* Navigation Styles */
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
-}
-
-/* General Link Styles */
-a {
-    color: white; /* Link color remains white */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Image Resizing */
-img {
-    width: 100%;  /* Allow images to be responsive */
-    max-width: 500px; /* Set a maximum width */
-    height: auto;  /* Maintain aspect ratio */
-    object-fit: contain; /* Ensures image doesn't distort */
-    margin: 20px 0; /* Space around the image */
-}
-
-/* Side Navigation Styles */
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-/* Side Navigation Links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-/* Close Button for the Sidenav */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-/* Main Content Adjustment when Sidenav is Open */
-.main-content {
-    transition: margin-left .5s;
-    padding: 20px;
-}
-
-/* Menu Button to Open the Side Navigation */
-#menuBtn {
-    font-size: 30px;
-    cursor: pointer;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 2;
-}
-
-/* Media Query for Smaller Screens */
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #menuBtn {
-        font-size: 25px;
-    }
-    .sidenav a {
-        font-size: 22px;
-    }
-}
+    margin-right: 15px

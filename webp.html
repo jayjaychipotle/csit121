@@ -5,91 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebP Example</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: "Lato", sans-serif;
-        }
-
-        .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-        .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        .main-content {
-            transition: margin-left .5s;
-            padding: 16px;
-        }
-
-        #menuBtn {
-            font-size: 30px;
-            cursor: pointer;
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 2;
-        }
-
-        @media screen and (max-height: 450px) {
-            .sidenav {
-                padding-top: 15px;
-            }
-            .sidenav a {
-                font-size: 18px;
-            }
-        }
-    </style>
 </head>
 <body>
-
-  <!-- Side Navigation -->
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="jpg.html">JPG</a>
-    <a href="webp.html">WebP</a>
-    <a href="png.html">PNG</a>
-  </div>
-
-  <!-- Menu Button -->
-  <span id="menuBtn" onclick="openNav()">&#9776; Open</span>
-
-  <!-- Main Content Area -->
-  <div class="main-content">
     <header>
         <h1>WebP Example</h1>
         <nav>
             <ul>
-                <li><a href="jpg.html">JPG</a></li>
+                <li><a href="jpg.html">JPEG</a></li>
                 <li><a href="webp.html">WebP</a></li>
-                <li><a href="png.html">PNG</a></li>
+                <li><a href="svg.html">SVG</a></li>
             </ul>
         </nav>
     </header>
@@ -104,24 +28,9 @@
             <p><strong>Source:</strong> Image is from my personal collection.</p>
         </section>
     </main>
-  </div>
 
-  <!-- Footer -->
-  <footer>
-      <p>&copy; Sekiteri</p>
-  </footer>
-
-  <!-- Scripts -->
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-      document.querySelector(".main-content").style.marginLeft = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      document.querySelector(".main-content").style.marginLeft = "0";
-    }
-  </script>
+    <footer>
+        <p>&copy; 2024 Sekiteri</p>
+    </footer>
 </body>
 </html>
